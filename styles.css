@@ -1,17 +1,23 @@
 body{
     margin: 0px;
     padding: 0px;
-}
-.main{
-    display: flex;
-}
-.left{
-    width: 50%;
-    height: 695px;
     background-color: black;
 }
-.right{
-    width: 50%;
-    height: 695px;
-    background-color: red;
+.nav{
+    height:70px;
+    color: white;
+    padding-left: 1030px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav ul li{
+    padding: 25px;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    transform: scale(1.1);
 }
